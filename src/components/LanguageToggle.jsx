@@ -1,31 +1,31 @@
 export default function LanguageToggle({ language, setLanguage }) {
-  const languageButtonClass = (value) =>
-    `rounded-full px-3 py-1 text-xs font-medium tracking-[0.18em] uppercase transition ${
-      language === value
-        ? "bg-[#22313d] text-white shadow-[0_8px_18px_rgba(34,49,61,0.18)]"
-        : "border border-[#d7d2ca] bg-white text-[#44515a] hover:bg-[#f3efe8]"
-    }`;
+  const buttonClass = (value) =>
+    language === value
+      ? "rounded-full bg-[#22313d] px-3 py-1.5 text-[11px] font-medium uppercase tracking-[0.18em] text-white"
+      : "rounded-full px-3 py-1.5 text-[11px] font-medium uppercase tracking-[0.18em] text-[#6b747a] transition hover:bg-[#f3efe8]";
 
   return (
-    <div className="flex items-center gap-2">
+    <div className="flex items-center gap-1.5 rounded-full border border-[#e5ddd3] bg-white/80 p-1">
       <button
         type="button"
         onClick={() => setLanguage("en")}
-        className={languageButtonClass("en")}
+        className={buttonClass("en")}
       >
         EN
       </button>
+
       <button
         type="button"
         onClick={() => setLanguage("de")}
-        className={languageButtonClass("de")}
+        className={buttonClass("de")}
       >
         DE
       </button>
+
       <button
         type="button"
         onClick={() => setLanguage("cz")}
-        className={languageButtonClass("cz")}
+        className={buttonClass("cz")}
       >
         CZ
       </button>
