@@ -20,27 +20,28 @@ export default function HeroSection({ t, smoothScroll }) {
 
         <div className="mt-10 flex flex-col gap-4 sm:flex-row">
           <a
+            href="https://calendly.com/hello-domova/free-website-strategy-call-20-min"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center rounded-full bg-[#22313d] px-6 py-3 text-sm font-medium text-white shadow-[0_14px_30px_rgba(34,49,61,0.18)] transition-all duration-300 hover:-translate-y-1 hover:scale-[1.03] hover:shadow-[0_24px_50px_rgba(34,49,61,0.28)] active:scale-[0.98]"
+          >
+            Book a Free Strategy Call
+          </a>
+
+          <a
             href="#work"
             onClick={(e) => {
               e.preventDefault();
               smoothScroll("#work");
             }}
-            className="inline-flex items-center justify-center rounded-full bg-[#22313d] px-6 py-3 text-sm font-medium text-white shadow-[0_14px_30px_rgba(34,49,61,0.18)] transition-all duration-300 hover:-translate-y-1 hover:scale-[1.03] hover:shadow-[0_24px_50px_rgba(34,49,61,0.28)] active:scale-[0.98]"
-          >
-            {t.heroBtn1}
-          </a>
-
-          <a
-            href="#contact"
-            onClick={(e) => {
-              e.preventDefault();
-              smoothScroll("#contact");
-            }}
             className="inline-flex items-center justify-center rounded-full border border-[#d7d2ca] bg-white px-6 py-3 text-sm font-medium text-[#22313d] shadow-[0_10px_24px_rgba(0,0,0,0.05)] transition-all duration-300 hover:-translate-y-1 hover:scale-[1.03] hover:bg-[#f3efe8] hover:shadow-[0_20px_40px_rgba(0,0,0,0.10)] active:scale-[0.98]"
           >
-            {t.heroBtn2}
+            Explore Our Work
           </a>
         </div>
+        <p className="mt-5 text-sm text-[#7a838a]">
+          Complimentary 20-minute strategy session • No obligation
+        </p>
       </div>
 
       <div className="grid gap-4 sm:grid-cols-2">

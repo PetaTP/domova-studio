@@ -26,7 +26,7 @@ export default function ContactSection({ t }) {
                 {t.email}
               </p>
               <a
-                href="mailto:hello@domovastudio.com"
+                href="mailto:hello@domova.studio"
                 className="mt-2 inline-block text-lg text-[#22313d] underline decoration-[#cfc6bb] underline-offset-4"
               >
                 hello@domovastudio.com
