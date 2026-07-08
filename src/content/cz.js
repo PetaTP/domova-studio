@@ -40,6 +40,10 @@ const cz = {
   basedOnline: "Online studio",
   basedOnlineText:
     "Pracujeme na dálku s klienty v Evropě a ve Spojených státech.",
+  footerCtaTitle: "Jste připraveni posunout svou digitální prezentaci na vyšší úroveň?",
+  footerCtaText: "Rezervujte si bezplatnou 20minutovou strategickou konzultaci.",
+  footerCtaButton: "Rezervovat bezplatnou strategickou konzultaci",
+  footerEmailText: "Nebo nám napište přímo na",
   footer:
     "Filmově působící weby pro luxusní nemovitosti a vizionářské značky.",
 };

@@ -41,6 +41,10 @@ const de = {
   basedOnline: "Online tätig",
   basedOnlineText:
     "Remote arbeitend mit Kundinnen und Kunden in Europa und den USA.",
+  footerCtaTitle: "Bereit, Ihre digitale Präsenz auf das nächste Level zu bringen?",
+  footerCtaText: "Buchen Sie ein kostenloses 20-minütiges Strategiegespräch.",
+  footerCtaButton: "Kostenloses Strategiegespräch buchen",
+  footerEmailText: "Oder schreiben Sie uns direkt an",
   footer:
     "Cineastische Websites für Luxusimmobilien und visionäre Marken.",
 };

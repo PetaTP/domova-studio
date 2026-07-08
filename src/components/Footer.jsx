@@ -5,11 +5,11 @@ export default function Footer({ t }) {
         {/* Final CTA */}
         <div className="mb-12 rounded-[2rem] border border-black/5 bg-white p-10 text-center shadow-[0_20px_60px_rgba(0,0,0,0.05)]">
           <h3 className="text-3xl font-medium text-[#22313d]">
-            Ready to elevate your digital presence?
+            {t.footerCtaTitle}
           </h3>
 
           <p className="mt-4 text-[#7a8288]">
-            Book a complimentary 20-minute website strategy session.
+            {t.footerCtaText}
           </p>
 
           <a
@@ -18,11 +18,11 @@ export default function Footer({ t }) {
             rel="noopener noreferrer"
             className="mt-8 inline-flex items-center justify-center rounded-full bg-[#22313d] px-6 py-3 text-sm font-medium text-white shadow-[0_14px_30px_rgba(34,49,61,0.18)] transition-all duration-300 hover:-translate-y-1 hover:scale-[1.03] hover:shadow-[0_24px_50px_rgba(34,49,61,0.28)] active:scale-[0.98]"
           >
-            Book a Free Strategy Call
+            {t.footerCtaButton}
           </a>
 
           <p className="mt-6 text-sm text-[#7a8288]">
-            Or email us directly at{" "}
+            {t.footerEmailText}{" "}
             <a
               href="mailto:hello@domovastudio.com"
               className="font-medium text-[#22313d] transition-colors hover:opacity-70"

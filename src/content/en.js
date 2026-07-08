@@ -40,6 +40,10 @@ const en = {
   basedOnline: "Based online",
   basedOnlineText:
     "Working remotely with clients in Europe and the United States.",
+  footerCtaTitle: "Ready to elevate your digital presence?",
+  footerCtaText: "Book a complimentary 20-minute website strategy session.",
+  footerCtaButton: "Book a Free Strategy Call",
+  footerEmailText: "Or email us directly at",
   footer:
     "Cinematic websites for luxury real estate and visionary brands.",
 };
