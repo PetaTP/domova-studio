@@ -40,7 +40,7 @@ export default function HeroSection({ t, smoothScroll }) {
           </a>
         </div>
         <p className="mt-5 text-sm text-[#7a838a]">
-          Complimentary 20-minute strategy session • No obligation
+          {t.heroNote}
         </p>
       </div>
 

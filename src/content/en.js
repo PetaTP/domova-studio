@@ -7,8 +7,9 @@ const en = {
     "We create cinematic websites for luxury real estate and visionary brands.",
   heroText:
     "Domova Studio designs immersive digital experiences shaped by atmosphere, aspiration, and emotion. We build websites that make a brand feel like a future someone wants to step into.",
-  heroBtn1: "View Featured Project",
-  heroBtn2: "Start a Conversation",
+  heroBtn1: "Book a Free Strategy Call",
+  heroBtn2: "Explore Our Work",
+  heroNote: "Complimentary 20-minute strategy session • No obligation",
   workLabel: "Featured work",
   workText:
     "A cinematic luxury real estate website concept designed to feel immersive, elevated, and emotionally resonant across desktop and mobile.",

@@ -7,8 +7,9 @@ const cz = {
     "Tvoříme filmově působící weby pro luxusní nemovitosti a vizionářské značky.",
   heroText:
     "Domova Studio navrhuje pohlcující digitální zážitky formované atmosférou, aspirací a emocí. Tvoříme weby, které působí jako budoucnost, do které chce člověk vstoupit.",
-  heroBtn1: "Zobrazit projekt",
-  heroBtn2: "Začít konverzaci",
+  heroBtn1: "Rezervovat bezplatnou strategickou konzultaci",
+  heroBtn2: "Prozkoumat naše projekty",
+  heroNote: "Bezplatná 20minutová strategická konzultace • Bez závazků",
   workLabel: "Vybraný projekt",
   workText:
     "Filmově laděný koncept webu pro luxusní realitní projekt navržený tak, aby působil pohlcujícím, prémiovým a emocionálně silným dojmem na desktopu i mobilu.",

@@ -7,8 +7,9 @@ const de = {
     "Wir gestalten cineastische Websites für Luxusimmobilien und visionäre Marken.",
   heroText:
     "Domova Studio entwickelt immersive digitale Erlebnisse, geprägt von Atmosphäre, Sehnsucht und Emotion. Wir bauen Websites, die sich wie eine Zukunft anfühlen, in die man eintreten möchte.",
-  heroBtn1: "Projekt ansehen",
-  heroBtn2: "Gespräch starten",
+  heroBtn1: "Kostenloses Strategiegespräch buchen",
+  heroBtn2: "Unsere Projekte entdecken",
+  heroNote: "Kostenloses 20-minütiges Strategiegespräch • Unverbindlich",
   workLabel: "Ausgewähltes Projekt",
   workText:
     "Ein cineastisches Website-Konzept für Luxusimmobilien, entwickelt für ein immersives, gehobenes und emotional stimmiges Erlebnis auf Desktop und Mobile.",
