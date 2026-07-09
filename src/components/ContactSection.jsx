@@ -29,7 +29,7 @@ export default function ContactSection({ t }) {
                 href="mailto:hello@domova.studio"
                 className="mt-2 inline-block text-lg text-[#22313d] underline decoration-[#cfc6bb] underline-offset-4"
               >
-                hello@domovastudio.com
+                hello@domova.studio
               </a>
             </div>
 
