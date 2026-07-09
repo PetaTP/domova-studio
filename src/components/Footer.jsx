@@ -24,10 +24,10 @@ export default function Footer({ t }) {
           <p className="mt-6 text-sm text-[#7a8288]">
             {t.footerEmailText}{" "}
             <a
-              href="mailto:hello@domovastudio.com"
+              href="mailto:hello@domova.studio"
               className="font-medium text-[#22313d] transition-colors hover:opacity-70"
             >
-              hello@domovastudio.com
+              hello@domova.studio
             </a>
           </p>
         </div>
